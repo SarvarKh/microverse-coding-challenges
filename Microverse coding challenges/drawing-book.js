@@ -16,7 +16,7 @@ function pageCount(n, p) {
   }
 
   let bookPages = [];
-  for (let j = 1; j <= pagesArr.length; j++) {
+  for (let j = 0; j <= pagesArr.length; j++) {
     bookPages.push(pagesArr.splice(0, 2));
     if(pagesArr.length === 1) {
       bookPages.push(pagesArr.splice(0));
@@ -54,4 +54,4 @@ function pageCount(n, p) {
     }
 }
 
-pageCount(6, 2);
+pageCount(5, 4);
