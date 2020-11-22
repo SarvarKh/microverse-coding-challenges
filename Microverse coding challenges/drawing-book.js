@@ -23,6 +23,35 @@ function pageCount(n, p) {
     }
   }
   
+  // 2. Count number of pages from the front to arrive to the page;
+  let countFront = 0;
+  for (let x = 0; x <= bookPages.length; x++) {
+    if (!bookPages[x].includes(p)) {
+      countFront++;
+    } else {
+      break;
+    }
+  }
+
+  // 3. Count number of pages from back to arrive to the page;
+  let countBack = 0;
+  for (let y = bookPages.length-1; y >= 0; y--) {
+    if(!bookPages[y].includes(p)) {
+      countBack++;
+    } else {
+      break;
+    }
+  }
+
+  // 4. If countFront > countBack => return countBack;
+    //  else return countFront;
+    if (countFront > countBack) {
+      console.log(countBack);
+      return countBack;
+    } else {
+      console.log(countFront);
+      return countFront;
+    }
 }
 
 pageCount(6, 2);
