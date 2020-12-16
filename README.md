@@ -13,7 +13,7 @@ This is the collection of coding challenges made by Microverse in the Hacker Ran
 
 ## Built With
 - Vanila JavaScript
-- Pseudo codes in each JS file (as comment block at the top)
+- Ruby
 
 ## Getting Started
 
