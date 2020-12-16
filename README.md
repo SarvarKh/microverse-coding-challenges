@@ -5,8 +5,10 @@ This is the collection of coding challenges made by Microverse in the Hacker Ran
 
 **The project contains the following coding challenges:**
 1. Drawing Book
-[Problem description](https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/drawing-book);
-2. 
+[Problem description](https://www.hackerrank.com/challenges/drawing-book/problem);
+2. Electronics Shop
+[Problem description](https://www.hackerrank.com/challenges/electronics-shop/problem);
+
 
 
 ## Built With
