@@ -5,8 +5,8 @@
 # 4. Compare and return lowest one 
 
 def pageCount(n, p)  
-  f = (p + 1) / 2
-  b = (n - p) / 2
+  f = p / 2
+  n.even? ? b = (n + 1 - p) / 2 : b = (n - p) / 2
 
   if (f > b)
     b
@@ -15,4 +15,4 @@ def pageCount(n, p)
   end
 end
 
-puts pageCount(6, 2)
+puts pageCount(16, 7) # => 0
